@@ -1,0 +1,28 @@
+header{
+  flex-flow: row wrap;
+  text-align: center;
+}
+header ul{
+  flex-flow: column wrap;
+  flex: 1;
+}
+.offres-listes{
+  flex-flow: row wrap;
+}
+.vp-logo{
+  padding:2rem;
+}
+.equipes{
+  flex-direction: column-reverse;
+}
+.equipes-content-text{
+  padding: 4rem 2rem;
+
+}
+.equipes-content-img{
+  width: 100%;
+  min-width: 300px;
+}
+.teamoins-elem{
+  flex-direction: column;
+}

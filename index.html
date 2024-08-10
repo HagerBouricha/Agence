@@ -5,23 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Agences</title>
   <link rel="stylesheet" href="./css/styles.css">
-  <link rel="stylesheet" media="only screen and (maw-width:500px)" href="./css/styles.mobile.css">
+  <link rel="stylesheet" media="only screen and (max-width:500px)" href="./css/styles.mobile.css">
   <script src="https://kit.fontawesome.com/5499f762ca.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Long+Cang&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  < class="vp-container">
+  <section  class="vp-container">
     <header>
       <h2 class="vp-logo">
         <i class="fa-solid fa-crown"></i>
         <a href="#">OM Sefsari</a>
       </h2>
       <ul>
-        <li><a href="#">Nos offres</a></li>
-        <li><a href="#">Notre equipe</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="offres">Nos offres</a></li>
+        <li><a href="equipes">Notre equipe</a></li>
+        <li><a href="contact">Contact</a></li>
       </ul>
     </header>
     <section class="vp">
@@ -31,7 +31,7 @@
         </p>
       </div>
     </section>
-    <section class="offres">
+    <section class="offres" id="offres">
       <div class="container">
         <h3 class="title">
           Nos dernieres offres
@@ -75,15 +75,15 @@
         </ul>
       </div>
     </section>
-    <section class="equipes">
+    <section class="equipes" id="equipes">
     
         
           <div class="equipes-content-img">
             <img src="/images/team.jpg" alt="team">
           </div>
           <div class="equipes-content-text">
-            <h2>Une équipe de <strong>professionnels</strong> avec plus de 10 ans d'expérience</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ab autem vitae similique minima voluptatum doloribus magni facere provident, placeat quo tempore quos, aliquid consectetur. Quam molestiae error esse sed?</p>
+            <h2 class="title">Une équipe de <strong>professionnels</strong> avec plus de 10 ans d'expérience</h>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
           </div>
         </section>
       <section class="teamoins">
@@ -136,7 +136,7 @@
         </div>
       </section>
     
-    <section class="contact">
+    <section class="contact" id="contact">
       <form action="#" class="contact-form">
         <h2 class="title">Pour nous <strong>contacter</strong></h2>
         <input type="text" placeholder="Nom" name="Nom" id="Nom">
